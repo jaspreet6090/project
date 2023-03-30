@@ -161,6 +161,8 @@ hr {
 
   .details {
     display: flex;
+    position: relative;
+    top: 12px;
   }
    
   .title {
@@ -218,3 +220,4 @@ hr {
   height: 170px;
 
 }
+
