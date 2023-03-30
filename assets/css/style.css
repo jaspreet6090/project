@@ -198,3 +198,9 @@ hr {
       width: 25rem;
     }
   }
+
+
+  .short-icon {
+    color: #FF0000;
+    font-size: 24px;
+  }
