@@ -124,6 +124,43 @@ myVideo5.addEventListener('mouseout', () => {
   myVideo5.currentTime = 0;
   myVideo5.muted = false;
 });
+const myVideo6 = document.getElementById('video6');
+
+// pause the video and unmute it by default
+myVideo6.pause();
+myVideo6.muted = false;
+
+// when the user hovers over the video, play it without sound
+myVideo6.addEventListener('mouseover', () => {
+  myVideo6.play();
+  myVideo6.muted = false;
+});
+
+// when the user stops hovering over the video, pause it and unmute it
+myVideo6.addEventListener('mouseout', () => {
+  myVideo6.pause();
+  myVideo6.currentTime = 0;
+  myVideo6.muted = false;
+});
+
+const myVideo7 = document.getElementById('video7');
+
+// pause the video and unmute it by default
+myVideo7.pause();
+myVideo7.muted = false;
+
+// when the user hovers over the video, play it without sound
+myVideo7.addEventListener('mouseover', () => {
+  myVideo7.play();
+  myVideo7.muted = false;
+});
+
+// when the user stops hovering over the video, pause it and unmute it
+myVideo7.addEventListener('mouseout', () => {
+  myVideo7.pause();
+  myVideo7.currentTime = 0;
+  myVideo7.muted = false;
+});
 
 
 
@@ -147,5 +184,44 @@ function closeNav() {
 
 
 
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+
+
+
+
+var sideNav = document.querySelector('.sidebar-nav');
+
+var state = "expanded";
+//Check if navbar is expanded or minimized and handle 
+$('#navbar-toggle').click(function() {
+    if (state == "expanded") {
+        $('.sidebar').css('margin-left', '-220px');
+        state = "minimized";
+    } else {
+        if (state == "minimized") {
+            $('.sidebar').css('margin-left', '0px');
+            state = "expanded";
+
+        }
+    }
+})
 
 

@@ -1,15 +1,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="https://kit.fontawesome.com/afcb52252c.js" crossorigin="anonymous"></script>
 
     <link href="assets/img/youtube-favicon.png" rel="icon">
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- CSS File -->
     <link rel="stylesheet" href="styles/index.css" />
 
@@ -22,12 +23,13 @@
     <nav id="navbar">
         <header class="header">
             <div class="logo left">
-                
 
-             
 
-                <button class="openbtn closebtn" onclick="openNav();closeNav()" id="toggleButton">&#9776;</button>
-                <!-- <button class="closebtn" onclick="closeNav()">&#9776;</button> -->
+
+
+
+                <a id="navbar-toggle">&#9776;</a>
+
                 <!-- <a  class="closebtn" onclick="closeNav()">&#9776;</a> -->
                 <!-- <i id="menu" class="material-icons">menu</i> -->
                 <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
@@ -57,18 +59,17 @@
 
 
     <main>
-        <div id="mySidebar" class="sidebar">
 
+        <div class="sidebar">
 
-            <!-- <button class="openbtn" onclick="openNav()">&#9776;</button> -->
-            <div class=”side-bar”>
-                <div class="nav">
+            <ul class="sidebar-nav">
+                <li>
                     <a class="nav-link active">
-                        <i class="material-icons">home</i>
+                        <i class="material-icons" style="color: black;">home</i>
                         <span>Home</span>
                     </a>
 
-           
+
 
                     <a class="nav-link">
                         <i class="material-icons">local_fire_department</i>
@@ -98,43 +99,14 @@
                         <i class="material-icons">thumb_up</i>
                         <span>Liked Videos</span>
                     </a>
-                </div>
-                <hr>
-            </div>
+                    
 
+                </li>
 
-
-
-
-
-
+               
+    
+            </ul>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -295,572 +267,219 @@
                 <!-- a video starts -->
                 <div class="video">
                     <div class="thumbnail">
-                        <video id="video5" width="320" height="240" controls class="homePageVideo"
-                            poster="https://i.ytimg.com/vi/vBS8_RuRz54/maxresdefault.jpg">
+                        <video id="video6" width="320" height="240" controls class="homePageVideo"
+                            poster="https://scontent.fdel10-1.fna.fbcdn.net/v/t1.6435-9/91432185_3068281669869803_8822730924773867520_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=973b4a&_nc_ohc=cznKFHSq06sAX_JLEI_&_nc_ht=scontent.fdel10-1.fna&oh=00_AfDiCdEsvXp40dTMWJYMfmHaL5qjc8th5b3_C17gUO_Afg&oe=644E54C2">
                             <button class="play-button" onclick="playVideo('video5')">Play</button>
                             <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
-                            <source src="assets/videos/unforgetable.mp4" type="video/mp4">
+                            <source src="assets/videos/battleOfpipliSahib.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
 
                     <div class="details">
                         <div class="author">
-                            <img src="https://yt3.googleusercontent.com/ytc/AL5GRJVETyDBCXzKQa78XVK6tfMKJpkhYfBRqspcjZ-x=s176-c-k-c0x00ffffff-no-rj"
+                            <img src="https://yt3.googleusercontent.com/KpcAwcxHaxNeffEgiNOhIzTvOaYYhx6OBc26ZcVD2vLJjsrdYY3SRkSRig9-vyyAa3BIEA95kg=s900-c-k-c0x00ffffff-no-rj"
                                 alt="" />
                         </div>
 
                         <div class="title">
                             <h3>
-                                Diljit Dosanjh UNFORGETTABLE (Official Video) Intense | Chani Nattan | New Punjabi Song
-                                2022
+                                Badla Singhan Da(Battle of Pipli Sahib) - Dalbir Gill Ft KAM LOHGARH 2022
                             </h3>
                             <a href="">
-                                Double Up Entertainment
+                                KaM LohgaRh
+
                             </a>
-                            <span> 5.5M Views • 1 year ago </span>
+                            <span> 1.9M Views • 4 year ago </span>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-                <!-- a video Ends -->
                 <!-- a video starts -->
-                <!-- <div class="video">
+                <div class="video">
                     <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                        <video id="video7" width="320" height="240" controls class="homePageVideo"
+                            poster="https://i.ytimg.com/vi/VjIQqBE0O18/maxresdefault.jpg">
+                            <button class="play-button" onclick="playVideo('video5')">Play</button>
+                            <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
+                            <source src="assets/videos/8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
 
                     <div class="details">
                         <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
+                            <img src="https://yt3.googleusercontent.com/0CnWxajx8YYqc1Yc5P013rNH2f7-5buT-G-PH_DBHCfX1uAbJND9RWAHzy5zKgoUIRZdfJUf=s176-c-k-c0x00ffffff-no-rj"
                                 alt="" />
                         </div>
+
                         <div class="title">
                             <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
+                                8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU
                             </h3>
                             <a href="">
-                                Francesco Ciulla
+                                Josh Sidhu
+
+
                             </a>
-                            <span> 2M Views • 3 Months Ago </span>
+                            <span> 2.5M Views • 5 months ago </span>
                         </div>
                     </div>
                 </div>
-                <!-- a video Ends -->
                 <!-- a video starts -->
-                <!-- <div class="video">
+                <div class="video">
                     <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                        <video id="video7" width="320" height="240" controls class="homePageVideo"
+                            poster="https://i.ytimg.com/vi/VjIQqBE0O18/maxresdefault.jpg">
+                            <button class="play-button" onclick="playVideo('video5')">Play</button>
+                            <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
+                            <source src="assets/videos/8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
 
                     <div class="details">
                         <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
+                            <img src="https://yt3.googleusercontent.com/0CnWxajx8YYqc1Yc5P013rNH2f7-5buT-G-PH_DBHCfX1uAbJND9RWAHzy5zKgoUIRZdfJUf=s176-c-k-c0x00ffffff-no-rj"
                                 alt="" />
                         </div>
+
                         <div class="title">
                             <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
+                                8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU
                             </h3>
                             <a href="">
-                                Francesco Ciulla
+                                Josh Sidhu
+
+
                             </a>
-                            <span> 2M Views • 3 Months Ago </span>
+                            <span> 2.5M Views • 5 months ago </span>
                         </div>
                     </div>
-                </div> -->
-                <!-- a video Ends -->
+                </div>
                 <!-- a video starts -->
-                <!-- <div class="video">
+                <div class="video">
                     <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                        <video id="video7" width="320" height="240" controls class="homePageVideo"
+                            poster="https://i.ytimg.com/vi/VjIQqBE0O18/maxresdefault.jpg">
+                            <button class="play-button" onclick="playVideo('video5')">Play</button>
+                            <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
+                            <source src="assets/videos/8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
 
                     <div class="details">
                         <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
+                            <img src="https://yt3.googleusercontent.com/0CnWxajx8YYqc1Yc5P013rNH2f7-5buT-G-PH_DBHCfX1uAbJND9RWAHzy5zKgoUIRZdfJUf=s176-c-k-c0x00ffffff-no-rj"
                                 alt="" />
                         </div>
+
                         <div class="title">
                             <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
+                                8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU
                             </h3>
                             <a href="">
-                                Francesco Ciulla
+                                Josh Sidhu
+
+
                             </a>
-                            <span> 2M Views • 3 Months Ago </span>
+                            <span> 2.5M Views • 5 months ago </span>
                         </div>
                     </div>
-                </div> -->
-                <!-- a video Ends -->
+                </div>
                 <!-- a video starts -->
-                <!-- <div class="video">
+                <div class="video">
                     <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                        <video id="video7" width="320" height="240" controls class="homePageVideo"
+                            poster="https://i.ytimg.com/vi/VjIQqBE0O18/maxresdefault.jpg">
+                            <button class="play-button" onclick="playVideo('video5')">Play</button>
+                            <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
+                            <source src="assets/videos/8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
 
                     <div class="details">
                         <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
+                            <img src="https://yt3.googleusercontent.com/KpcAwcxHaxNeffEgiNOhIzTvOaYYhx6OBc26ZcVD2vLJjsrdYY3SRkSRig9-vyyAa3BIEA95kg=s900-c-k-c0x00ffffff-no-rj"
                                 alt="" />
                         </div>
+
                         <div class="title">
                             <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
+                                8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU
                             </h3>
                             <a href="">
-                                Francesco Ciulla
+                                Josh Sidhu
+
+
                             </a>
-                            <span> 2M Views • 3 Months Ago </span>
+                            <span> 2.5M Views • 5 months ago </span>
                         </div>
                     </div>
-                </div> -->
-                <!-- a video Ends -->
+                </div>
                 <!-- a video starts -->
-                <!-- <div class="video">
+                <div class="video">
                     <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                        <video id="video7" width="320" height="240" controls class="homePageVideo"
+                            poster="https://i.ytimg.com/vi/VjIQqBE0O18/maxresdefault.jpg">
+                            <button class="play-button" onclick="playVideo('video5')">Play</button>
+                            <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
+                            <source src="assets/videos/8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
 
                     <div class="details">
                         <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
+                            <img src="https://yt3.googleusercontent.com/0CnWxajx8YYqc1Yc5P013rNH2f7-5buT-G-PH_DBHCfX1uAbJND9RWAHzy5zKgoUIRZdfJUf=s176-c-k-c0x00ffffff-no-rj"
                                 alt="" />
                         </div>
+
                         <div class="title">
                             <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
+                                8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU
                             </h3>
                             <a href="">
-                                Francesco Ciulla
+                                Josh Sidhu
+
+
                             </a>
-                            <span> 2M Views • 3 Months Ago </span>
+                            <span> 2.5M Views • 5 months ago </span>
                         </div>
                     </div>
-                </div> -->
-                <!-- a video Ends -->
+                </div>
                 <!-- a video starts -->
-                <!-- <div class="video">
+                <div class="video">
                     <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                        <video id="video7" width="320" height="240" controls class="homePageVideo"
+                            poster="https://i.ytimg.com/vi/VjIQqBE0O18/maxresdefault.jpg">
+                            <button class="play-button" onclick="playVideo('video5')">Play</button>
+                            <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
+                            <source src="assets/videos/8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
 
                     <div class="details">
                         <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
+                            <img src="https://yt3.googleusercontent.com/KpcAwcxHaxNeffEgiNOhIzTvOaYYhx6OBc26ZcVD2vLJjsrdYY3SRkSRig9-vyyAa3BIEA95kg=s900-c-k-c0x00ffffff-no-rj"
                                 alt="" />
                         </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
 
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
                         <div class="title">
                             <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
+                                8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU
                             </h3>
                             <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
+                                Josh Sidhu
 
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
 
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
                             </a>
-                            <span> 2M Views • 3 Months Ago </span>
+                            <span> 2.5M Views • 5 months ago </span>
                         </div>
                     </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
-                <!-- a video starts -->
-                <!-- <div class="video">
-                    <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-                        <div class="title">
-                            <h3>
-                                Introverts & Content Creation | Sumudu Siriwardana
-                            </h3>
-                            <a href="">
-                                Francesco Ciulla
-                            </a>
-                            <span> 2M Views • 3 Months Ago </span>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- a video Ends -->
+                </div>
 
 
 
@@ -875,6 +494,8 @@
     </main>
     <!-- Main Body Ends -->
 </body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
 <script src="index.js"></script>
 
 </html>
