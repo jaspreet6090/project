@@ -1,0 +1,184 @@
+.video{
+    width: 1000px;
+    position: relative;
+    right: 350px;
+    
+}
+
+#video1{
+    height: 713px;
+}
+
+.videos{
+    position: relative;
+    
+}
+
+
+
+.header{
+    height: 70px;
+}
+
+.details{
+    position: relative;
+    top: 600px;
+}
+
+.title h3{
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.title a{
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.authorSubscribers{
+    position: relative;
+    bottom: 20px;
+}
+
+.dropdown{
+    width: 15%;
+    position: relative;
+    top: 503px;
+    left:200px;
+
+  
+}
+
+
+.content{
+  background-color: white;
+}
+
+
+
+
+.dropdown button{
+    border-radius: 25px; /* Use a large value to create fully rounded corners */
+    padding: 10px 20px; /* Add some padding to create some space around the button text */
+    border: none; /* Remove the default border */
+    background-color: #F2F2F2; /* Add a background color */
+    color: black; /* Set the text color to white for better contrast */
+  }
+  
+  .dropdown button:before {
+    content: ""; /* Add an empty content before the button text */
+    display: block; /* Make the content a block element */
+    height: 100%; /* Set the height to 100% to fill the button height */
+    width: 20%; /* Set the width to 20% to create a straight middle */
+    background-color: white; /* Set the content background color to match the background */
+    position: absolute; /* Position the content absolutely */
+    left: 50%; /* Center the content horizontally */
+    transform: translateX(-50%); /* Center the content horizontally using a transform */
+    z-index: -1; /* Move the content behind the button text */
+  }
+
+
+
+
+
+  .button-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 540px;
+    left: 770px;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #606060;
+    transition: all 0.2s ease-in-out;
+    border-radius: 25px; /* Use a large value to create fully rounded corners */
+    padding: 10px 20px; /* Add some padding to create some space around the button text */
+    border: none; /* Remove the default border */
+    background-color: #F2F2F2; /* Add a background color */
+    color: black; /* Set the text color to white for better contrast */
+  }
+  
+  button:hover {
+    color: #FF0000;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  i {
+    margin-right: 5px;
+  }
+  
+  .like-button:hover {
+    color: #0073B1;
+  }
+  
+  .share-button:hover {
+    color: #1DA1F2;
+  }
+  
+  .clip-button:hover {
+    color: #FF0000;
+  }
+  
+  .save-button:hover {
+    color: #FFA500;
+  }
+  
+
+.buttonGroupIcons{
+    font-size: 18px;
+}
+
+
+
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #F2F2F2;
+  margin: 50px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card-more-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.card button{
+  width: 8%;
+}
+

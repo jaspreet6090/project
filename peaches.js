@@ -32,21 +32,21 @@ window.addEventListener('load', setupVideos, false)
 const myVideo1 = document.getElementById('video1');
 
 // pause the video and unmute it by default
-myVideo1.pause();
+// myVideo1.pause();
 myVideo1.muted = false;
 
 // when the user hovers over the video, play it without sound
-myVideo1.addEventListener('mouseover', () => {
-  myVideo1.play();
-  myVideo1.muted = true;
-});
+// myVideo1.addEventListener('mouseover', () => {
+//   myVideo1.play();
+//   myVideo1.muted = false;
+// });
 
 // when the user stops hovering over the video, pause it and mute it
-myVideo1.addEventListener('mouseout', () => {
-  myVideo1.pause();
-  myVideo1.currentTime = 0;
-  // myVideo1.muted = true;
-});
+// myVideo1.addEventListener('mouseout', () => {
+//   myVideo1.pause();
+//   myVideo1.currentTime = 0;
+//   // myVideo1.muted = true;
+// });
 
 
 
@@ -225,3 +225,25 @@ $('#navbar-toggle').click(function() {
 })
 
 
+
+const video1 = document.getElementById("video1");
+video1.addEventListener("click", () => {
+  if (!video1.paused) {
+    video1.pause();
+  }
+});
+
+
+
+function toggleText() {
+  var moreText = document.querySelector(".card-more-text");
+  var btnText = document.querySelector(".card-btn");
+
+  if (moreText.classList.contains("hidden")) {
+    moreText.classList.remove("hidden");
+    btnText.innerHTML = "Show less";
+  } else {
+    moreText.classList.add("hidden");
+    btnText.innerHTML = "Show more";
+  }
+}
