@@ -178,7 +178,47 @@
 }
 
 
-.card button{
-  width: 8%;
+
+
+.numberOfLikes{
+  position: relative;
+  top: 5px;
+  font-weight: 500;
 }
+
+.like-button{
+  width: 200px;
+}
+.fa-thumbs-up{
+  font-size: 25px;
+}
+
+
+.ShowMoreBtn{
+  position: relative;
+  left: 100px;
+  width: 1200px;
+  height: 100px;
+  bottom: 30px;
+  z-index: 1;
+  background-color: white;
+
+}
+
+.showMoreCard{
+  position: relative;
+  width: 100%;
+  right: 80px;
+  text-align: left;
+  font-weight: 300;
+}
+.showMoreText{
+  position: relative;
+  left: 110px;
+  bottom: 38px;
+  width: 10%;
+  font-weight: 600;
+}
+
+
 

@@ -247,3 +247,6 @@ function toggleText() {
     btnText.innerHTML = "Show more";
   }
 }
+
+
+
