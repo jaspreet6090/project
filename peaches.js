@@ -1,4 +1,34 @@
 
+$('#show-more-content').hide();
+$(document).ready(function() {
+  // Select the card element and set its initial height
+  var card = $('.showCardContent');
+  card.height('90px');
+});
+
+$('#show-more').click(function(){
+  $(document).ready(function() {
+    // Select the card element and set its final height
+    var card = $('.showCardContent');
+    card.height('880px');
+  });
+  $('#show-more-content').show(1);
+	$('#show-less').show();
+	$('#show-more').hide();
+});
+
+$('#show-less').click(function(){
+  $(document).ready(function() {
+    // Select the card element and set its final height
+    var card = $('.showCardContent');
+    card.height('90px');
+  });
+	$('#show-more-content').hide(150);
+	$('#show-more').show();
+	$(this).hide();
+});
+
+
 var currentVideo = null;
 
 function playVideo(id) {
@@ -234,19 +264,6 @@ video1.addEventListener("click", () => {
 });
 
 
-
-function toggleText() {
-  var moreText = document.querySelector(".card-more-text");
-  var btnText = document.querySelector(".card-btn");
-
-  if (moreText.classList.contains("hidden")) {
-    moreText.classList.remove("hidden");
-    btnText.innerHTML = "Show less";
-  } else {
-    moreText.classList.add("hidden");
-    btnText.innerHTML = "Show more";
-  }
-}
 
 
 
