@@ -106,8 +106,14 @@
   align-items: center;
   position: relative;
   top: 540px;
-  left: 770px;
+  left: 739px;
   width: 51%;
+}
+
+.button-group span{
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
 }
 
 button {
@@ -251,7 +257,7 @@ i {
   background-color: #F2F2F2;
   padding: 20px;
   position: relative;
-  bottom: 160px;
+  bottom: 182px;
   width: 67%;
   right: 220px;
 }
@@ -344,4 +350,31 @@ i {
   top: 4px;
   padding-left: 11px;
   padding-right: 11px;
+}
+
+.threeDot-button{
+  border-radius: 100%;
+  width: 40px;
+}
+.like-button{
+  height: 36px;
+  width: 160px;
+  
+}
+
+.share-button{
+  height: 36px;
+  width: 160px;
+  
+}
+
+.clip-button{
+  height: 36px;
+  width: 160px;
+  
+}
+.save-button{
+  height: 36px;
+  width: 160px;
+
 }
