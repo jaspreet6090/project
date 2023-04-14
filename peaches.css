@@ -9,11 +9,13 @@
   height: 713px;
 }
 
-.videos {
-  position: relative;
-
+#rightContainerContent {
+  width: 26vw;
+  position: absolute;
+  top: 84px;
+  right: 9;
+  overflow: auto;
 }
-
 
 
 .header {
@@ -110,7 +112,7 @@
   width: 51%;
 }
 
-.button-group span{
+.button-group span {
   font-size: 14px;
   color: black;
   font-weight: 600;
@@ -261,120 +263,272 @@ i {
   width: 67%;
   right: 220px;
 }
+
 .showCardContent h3 {
-  font-weight:bold;
+  font-weight: bold;
   margin-bottom: 24px;
 }
+
 .showCardContent a {
   color: black;
   text-decoration: none;
-  
+
 }
+
 .showCardContent p {
   margin-bottom: 12px;
 }
-#show-more, #show-less { 
+
+#show-more,
+#show-less {
   color: #e9e9e9;
 }
-#show-more a, #show-less a{
+
+#show-more a,
+#show-less a {
   cursor: pointer;
   color: auto;
 }
 
-.showMoreToggle{
+.showMoreToggle {
   position: relative;
   left: 109px;
-  bottom:48px;
+  bottom: 48px;
   width: 50%;
 
 }
 
-.firstRowInShowCardContent{
+.firstRowInShowCardContent {
   font-size: 14px;
   font-weight: 600;
 }
-.secondRowInShowCardContent{
+
+.secondRowInShowCardContent {
   position: relative;
   bottom: 14px;
   font-size: 15px;
 }
-.thirdRowInShowCardContent{
+
+.thirdRowInShowCardContent {
   position: relative;
   bottom: 12px;
 }
 
-.hrLineShowMore{
+.hrLineShowMore {
   border-bottom: black 1px dashed;
   width: 20%;
 }
 
 
-.fa-caret-up{
+.fa-caret-up {
   font-size: 20px;
   transform: rotate(90deg);
 }
-.MusicHeadingShowMore{
+
+.MusicHeadingShowMore {
   font-size: 19px;
   font-weight: 700;
 
 }
 
-.musicContainerShowMore{
+.musicContainerShowMore {
   margin: 20px;
   border: gray solid 1px;
 }
 
-.yt-img-shadow{
+.yt-img-shadow {
   margin: 8px;
 }
 
-#show-less{
+#show-less {
   position: relative;
   top: 26px;
   right: 7px;
 }
 
-.MusicArrow{
+.MusicArrow {
   position: relative;
   left: 1050px;
 
 }
 
-.unlikeBTN{
+.unlikeBTN {
   transform: rotate(180deg);
 
 }
 
-.like-button h6{
+.like-button h6 {
   position: relative;
   top: 4px;
   padding-left: 11px;
   padding-right: 11px;
 }
 
-.threeDot-button{
+.threeDot-button {
   border-radius: 100%;
   width: 40px;
 }
-.like-button{
-  height: 36px;
-  width: 160px;
-  
-}
 
-.share-button{
-  height: 36px;
-  width: 160px;
-  
-}
-
-.clip-button{
-  height: 36px;
-  width: 160px;
-  
-}
-.save-button{
+.like-button {
   height: 36px;
   width: 160px;
 
+}
+
+.share-button {
+  height: 36px;
+  width: 160px;
+
+}
+
+.clip-button {
+  height: 36px;
+  width: 160px;
+
+}
+
+.save-button {
+  height: 36px;
+  width: 160px;
+
+}
+
+
+
+.bottomElementPage {
+  display: flex;
+}
+
+.commentSection {
+  display: flex;
+
+}
+
+
+
+.commentSectionForm {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  position: relative;
+  bottom: 15px;
+}
+
+.commentSectionForm::placeholder {
+  font-size: 15px;
+}
+
+.EntireBottomSection {
+  position: relative;
+  left: 94px;
+  bottom: 150px;
+  width: 67%;
+}
+
+
+.UserCommentsDetails {
+  bottom: 40px;
+  position: relative;
+  left: 50px;
+  padding-left: 17px;
+  width: 50%;
+
+}
+
+
+.pinIcon {
+  position: relative;
+  bottom: 33px;
+  right: 15px;
+}
+
+.UserCommentsDetails p {
+  font-size: 12px;
+}
+
+.UserCommentsDetails a {
+  font-size: 12px;
+  bottom: 24px;
+}
+
+.AuthorPinComment{
+  background-color: #888888;
+  color: white;
+}
+
+.commentByUser{
+  position: relative;
+  bottom: 20px;
+}
+
+.UserCommentsDetailsSecondOnwards{
+  position: relative;
+  bottom: 17px;
+}
+
+.like-button-comments{
+  position: relative;
+  bottom: 20px;
+
+
+}
+.title p{
+  font-size: 15px;
+}
+.title a{
+  font-size: 15px;
+}
+
+.replyBTN{
+  display: inline-block;
+  background-color: white;
+}
+
+.replyBTN:hover{
+  background-color: #F2F2F2;
+  color: black;
+
+}
+
+.noOfRepliesTN{
+  background-color: white;
+  color: #3b5998;
+}
+
+.noOfRepliesTN:hover{
+  background-color: #F2F2F2;
+  color: #3b5998;
+}
+.UserCommentSection{
+  position: relative;
+  bottom: 45px;
+}
+
+
+.rightContainerVideos{
+  width: 40%;
+}
+
+.rightContainerTitle{
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  bottom: 100px;
+
+}
+
+.rightContainerTitle span{
+  position: relative;
+  right:78px;
+}
+.rightContainerTitle a{
+  font-size: 13px;
+ 
+}
+
+.bottomTitleRightContainer{
+  position: relative;
+  top: 12px;
 }
