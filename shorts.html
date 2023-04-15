@@ -12,10 +12,32 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- CSS File -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <!-- CSS File -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-tgDN9rA63T6U0k0DgSJzTm87sFm7V2wv6jK7VYceqmbyjvmGw7MnkMfZ3q7Z1c9Xbh60xGvRvRJChz34PcZsUw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-tgDN9rA63T6U0k0DgSJzTm87sFm7V2wv6jK7VYceqmbyjvmGw7MnkMfZ3q7Z1c9Xbh60xGvRvRJChz34PcZsUw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/index.css" />
 
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="shorts.css">
+    <link rel="stylesheet" href="peaches.css">
     <title>YouTube</title>
 </head>
 
@@ -32,7 +54,7 @@
 
                 <!-- <a  class="closebtn" onclick="closeNav()">&#9776;</a> -->
                 <!-- <i id="menu" class="material-icons">menu</i> -->
-                <img src="assets/img/youtubeLOGO.png">
+                <a href="index.html"><img src="assets/img/youtubeLOGO.png"></a>
             </div>
 
             <div class="search center">
@@ -64,7 +86,7 @@
 
             <ul class="sidebar-nav">
                 <li>
-                    <a class="nav-link active">
+                    <a class="nav-link active" href="index.html">
                         <i class="material-icons" style="color: black;">home</i>
                         <span>Home</span>
                     </a>
@@ -111,237 +133,174 @@
                
     
             </ul>
-        </div>
 
+            <div class="carousel">
+                <div class="shortVideos">
+                    <!-- <iframe src="assets/shorts/short1.mp4" allowfullscreen="allowfullscreen" style="background-color: white;" id="myframe" ></iframe> -->
 
-
-
-
-
-        <div class="content">
-            <div class="videos">
-                <!-- a video starts -->
-                <div class="video">
-                    <div class="thumbnail">
-                        <a href="peaches.html">
-                        <video id="video1" controls class="homePageVideo"
-                            poster="https://i.ytimg.com/vi/s0JTpcDu1Tk/maxresdefault.jpg">
-                            <button class="play-button" onclick="playVideo('video1')">Play</button>
-                            <button class="pause-button" onclick="pauseVideo('video1')">Pause</button>
-                            <source src="assets/videos/peaches.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </a>
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.googleusercontent.com/ytc/AL5GRJX16zDBVVUMUjYiT5WSkif59zVgOOskKP7vL_vToA=s900-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-
-                        <div class="title">
-                            <h3>
-                                Diljit Dosanjh: Peaches (Official Music Video) Intense | Raj Ranjodh | Drive Thru
-                            </h3>
-                            <a href="">
-                                Diljit Dosanjh
-                            </a>
-                            <span> 52M Views • 8 Months Ago </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- a video starts -->
-                <div class="video">
-                    <div class="thumbnail">
-                        <video id="video2" width="320" height="240" controls class="homePageVideo"
-                            poster="https://i.ytimg.com/vi/7uVIzQYdbGk/maxresdefault.jpg">
-                            <button class="play-button" onclick="playVideo('video2')">Play</button>
-                            <button class="pause-button" onclick="pauseVideo('video2')">Pause</button>
-                            <source src="assets/videos/malwa.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.googleusercontent.com/ytc/AL5GRJVg-X2Obvk3krIaH7jGHM78q5vhlkBypLkXoSK8zw=s900-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-
-                        <div class="title">
-                            <h3>
-                                Malwa Block (Official Video) | Sidhu Moose Wala | Wazir Patar | Hunny PK Films |
-                                Moosetape
-                            </h3>
-                            <a href="">
-                                Sidhu Moose Wala
-                            </a>
-                            <span> 48M Views • 1 year Ago </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- a video starts -->
-                <div class="video">
-                    <div class="thumbnail">
-                        <video id="video3" width="320" height="240" controls class="homePageVideo"
-                            poster="https://i.ytimg.com/vi/n_FCrCQ6-bA/maxresdefault.jpg" alt="MyVideo">
-                            <button class="play-button" onclick="playVideo('video3')">Play</button>
-                            <button class="pause-button" onclick="pauseVideo('video3')">Pause</button>
-                            <source src="assets/videos/295.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.googleusercontent.com/ytc/AL5GRJVg-X2Obvk3krIaH7jGHM78q5vhlkBypLkXoSK8zw=s900-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-
-                        <div class="title">
-                            <h3>
-                                295 (Official Audio) | Sidhu Moose Wala | The Kidd | Moosetape
-                            </h3>
-                            <a href="">
-                                Sidhu Moose Wala
-                            </a>
-                            <span> 446M Views • 1 year Ago </span>
-                        </div>
-                    </div>
+                        <video autoplay="autoplay"  id="shortsVideos" controls loop="loop">
+                            <source src="assets/shorts/short1.mp4" type="video/mp4">
+                            <button id="play-pause-btn">Play</button>
+                    Your browser does not support the video tag.
+                </video>
+                <div class="author">
+                    <p class="desciptionShorts"><strong>Nature to down to earth #sidhumoosewala <br> #justiceforsidhumoosewala #iamsinghdeep #shorts <br> #video $art</strong></p>
+                    <img src="https://yt3.ggpht.com/F25Gmnh8dl5w7nUBprxiJwBO91rHVItiffVate3glPKVxdqZXR7avLmBku5ieXfxphckqcc5HIM=s48-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                            <button class="btn btn--sub">Subscribe</button>
+                      <p style="display: inline-block;" class="userNameShorts"><strong>@iamsinghdeep5058</strong></p>
+                  
+        
                 </div>
 
-                <!-- a video starts -->
-                <div class="video">
-                    <div class="thumbnail">
-                        <video id="video4" width="320" height="240" controls class="homePageVideo"
-                            poster="https://i.ytimg.com/vi/ZVgergj8Xe4/maxresdefault.jpg">
-                            <button class="play-button" onclick="playVideo('video4')">Play</button>
-                            <button class="pause-button" onclick="pauseVideo('video4')">Pause</button>
-                            <source src="assets/videos/lemonade.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                <div class="buttonGroup">
+
+
+                    <button class="threeDot-button ">
+                        <img id="img" draggable="false" class="threeDotBTN" alt="" height="26" width="28" src="assets/img/likeShort.png">
+                    </button>
+                    <p>134K</p>
+                    <button class="threeDot-button ">
+                        <img id="img" draggable="false" class="threeDotBTN" alt="" height="26" width="28" src="assets/img/unlikeShort.png">
+                    </button>
+                    <p>Dislike</p>
+                    
+                    <button class="threeDot-button ">
+                        <img id="img" draggable="false" class="threeDotBTN" alt="" height="26" width="28" src="assets/img/commentShort.png">
+                    </button>
+                    <p>706</p>
+                    <button class="threeDot-button ">
+                        <img id="img" draggable="false" class="threeDotBTN" alt="" height="26" width="28" src="assets/img/shareShort.png">
+                    </button>
+                    <p>Share</p>
+                    <button class="threeDot-button ">
+                        <img id="img" draggable="false" class="threeDotBTN" alt="" height="26" width="28" src="assets/img/threeDotShorts.png">
+                    </button>
+                    <p>134K</p>
+                    <div class="threeDot-button">
+                        <img src="https://yt3.ggpht.com/42BblSX2xpt_zTh5nJSzon2KF_VAOVRjG459ZqDxXwgs99SOEviMDG_dWYbMG5cV2HsWZm4u=s48-c-k-c0x00ffffff-no-rj"
+                        alt="" />
                     </div>
 
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.googleusercontent.com/ytc/AL5GRJX16zDBVVUMUjYiT5WSkif59zVgOOskKP7vL_vToA=s900-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-
-                        <div class="title">
-                            <h3>
-                                Diljit Dosanjh | Lemonade | Intense | Raj Ranjodh | Drive Thru
-                            </h3>
-                            <a href="">
-                                Diljit Dosanjh
-                            </a>
-                            <span> 2.9M Views • 2 Months Ago </span>
-                        </div>
+                    
+<!-- 
+                    <div class="author">
+                        <i class="fa-solid fa-thumbs-up"></i>
                     </div>
+                    <br>
+                    <div class="author">
+                        <img src="assets/img/unlikeShort.png"
+                        alt="" />
+                    </div>
+                    <br>
+                    <div class="author">
+                        <img src="assets/img/commentShort.png"
+                        alt="" />
+                    </div>
+                    <br>
+                    <div class="author">
+                        <img src="assets/img/shareShort.png"
+                        alt="" />
+                    </div>
+                    <br>
+                    <div class="author">
+                        <img src="assets/img/threeDotShorts.png"
+                        alt="" />
+                    </div>
+                    <br>
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/42BblSX2xpt_zTh5nJSzon2KF_VAOVRjG459ZqDxXwgs99SOEviMDG_dWYbMG5cV2HsWZm4u=s48-c-k-c0x00ffffff-no-rj"
+                        alt="" />
+                    </div>
+
+
+
+
+
+                </div> -->
+
+
+
+               
+               
+            
+
+
                 </div>
 
-                <!-- a video starts -->
-                <div class="video">
-                    <div class="thumbnail">
-                        <video id="video5" width="320" height="240" controls class="homePageVideo"
-                            poster="https://i.ytimg.com/vi/vBS8_RuRz54/maxresdefault.jpg">
-                            <button class="play-button" onclick="playVideo('video5')">Play</button>
-                            <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
-                            <source src="assets/videos/unforgetable.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.googleusercontent.com/ytc/AL5GRJVETyDBCXzKQa78XVK6tfMKJpkhYfBRqspcjZ-x=s176-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-
-                        <div class="title">
-                            <h3>
-                                Diljit Dosanjh UNFORGETTABLE (Official Video) Intense | Chani Nattan | New Punjabi Song
-                                2022
-                            </h3>
-                            <a href="">
-                                Double Up Entertainment
-                            </a>
-                            <span> 5.5M Views • 1 year ago </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- a video starts -->
-                <div class="video">
-                    <div class="thumbnail">
-                        <video id="video6" width="320" height="240" controls class="homePageVideo"
-                            poster="https://scontent.fdel10-1.fna.fbcdn.net/v/t1.6435-9/91432185_3068281669869803_8822730924773867520_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=973b4a&_nc_ohc=cznKFHSq06sAX_JLEI_&_nc_ht=scontent.fdel10-1.fna&oh=00_AfDiCdEsvXp40dTMWJYMfmHaL5qjc8th5b3_C17gUO_Afg&oe=644E54C2">
-                            <button class="play-button" onclick="playVideo('video5')">Play</button>
-                            <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
-                            <source src="assets/videos/battleOfpipliSahib.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.googleusercontent.com/KpcAwcxHaxNeffEgiNOhIzTvOaYYhx6OBc26ZcVD2vLJjsrdYY3SRkSRig9-vyyAa3BIEA95kg=s900-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-
-                        <div class="title">
-                            <h3>
-                                Badla Singhan Da(Battle of Pipli Sahib) - Dalbir Gill Ft KAM LOHGARH 2022
-                            </h3>
-                            <a href="">
-                                KaM LohgaRh
-
-                            </a>
-                            <span> 1.9M Views • 4 year ago </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- a video starts -->
-                <div class="video">
-                    <div class="thumbnail">
-                        <video id="video7" width="320" height="240" controls class="homePageVideo"
-                            poster="https://i.ytimg.com/vi/VjIQqBE0O18/maxresdefault.jpg">
-                            <button class="play-button" onclick="playVideo('video5')">Play</button>
-                            <button class="pause-button" onclick="pauseVideo('video5')">Pause</button>
-                            <source src="assets/videos/8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-
-                    <div class="details">
-                        <div class="author">
-                            <img src="https://yt3.googleusercontent.com/0CnWxajx8YYqc1Yc5P013rNH2f7-5buT-G-PH_DBHCfX1uAbJND9RWAHzy5zKgoUIRZdfJUf=s176-c-k-c0x00ffffff-no-rj"
-                                alt="" />
-                        </div>
-
-                        <div class="title">
-                            <h3>
-                                8 CYLINDER - SIDHU MOOSE WALA X JOSH SIDHU
-                            </h3>
-                            <a href="">
-                                Josh Sidhu
 
 
-                            </a>
-                            <span> 2.5M Views • 5 months ago </span>
-                        </div>
-                    </div>
-                </div>
-       
+
+        
+
+
+
+
+
+
+
 
 
             </div>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ending of sidenavbar over here  -->
         </div>
+
+        
+
+
+
+
+
+
+       
+                
+                
+
+                
+            </div>
+
+      
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+
+
     </main>
     <!-- Main Body Ends -->
 </body>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
 
-<script src="index.js"></script>
+<script src="shorts.js"></script>
+<!-- <script src="index.js"></script> -->
 
 </html>

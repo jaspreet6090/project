@@ -226,3 +226,28 @@ $('#navbar-toggle').click(function() {
 
 
 
+
+$('.carousel').slick({
+  dots: false,
+  arrows: false,
+  vertical: true,
+  verticalSwiping: true,
+  draggable: false,
+  swipe: false,
+  touchMove: false,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        draggable: true,
+        swipe: true,
+        touchMove: true,
+        vertical: false,
+        verticalSwiping: false,
+      }
+    }
+  ]
+});
+
+
+
